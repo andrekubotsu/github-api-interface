@@ -7,7 +7,7 @@ const Header = () => {
   const [usernameForSearch, setUsernameForSearch] = useState();
 
   const submitGetUser = () => {
-    if (!usernameForSearch) return;
+    if (!usernameForSearch) return setUsernameForSearch('');
     return getUser(usernameForSearch);
   };
 
