@@ -4,7 +4,15 @@ export const Wrapper = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   padding: 4px;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
 
   input {
     border: 1px solid #ccc;
@@ -20,6 +28,7 @@ export const Wrapper = styled.div`
     padding: 8px 16px;
     margin: 0 16px;
     border-radius: 8px;
+    transition: 300ms;
 
     &:hover {
       background-color: #2c5282;
@@ -27,7 +36,8 @@ export const Wrapper = styled.div`
     }
 
     span {
-      font-weight: bold;
+      font-size: 20px;
+      font-weight: 500;
       color: #ffff;
     }
   }

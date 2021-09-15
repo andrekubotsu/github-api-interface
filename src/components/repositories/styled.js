@@ -30,7 +30,10 @@ export const WrapperTab = styled(Tab)`
   }
 
   &.is-selected {
-    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #225ed8;
+    color: #fff;
+    font-weight: 500;
   }
 `;
 WrapperTab.tabsRole = "Tab";

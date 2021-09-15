@@ -13,7 +13,9 @@ const Header = () => {
 
   return (
     <header>
+     
       <S.Wrapper>
+      <h1>GitHub User Search</h1>
         <input
           type="text"
           placeholder="Digite o username para pesquisa..."
