@@ -12,6 +12,7 @@ export const WrapperTabList = styled(TabList)`
   padding: 4px;
   display: flex;
   margin: 0;
+  justify-content: center;
 `;
 WrapperTabList.tabsRole = "TabList";
 
